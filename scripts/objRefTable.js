@@ -10,6 +10,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.TextBox.Acts.SetFocus,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Arr.Acts.SetXY,
 		C3.Plugins.Text.Cnds.OnCreated,
