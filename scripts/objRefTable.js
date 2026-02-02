@@ -24,7 +24,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Acts.SubVar,
-		C3.Plugins.System.Cnds.TriggerOnce
+		C3.Plugins.System.Cnds.TriggerOnce,
+		C3.Plugins.Button.Acts.SetVisible
 	];
 };
 self.C3_JsPropNameTable = [
@@ -48,6 +49,10 @@ self.C3_JsPropNameTable = [
 	{Text3: 0},
 	{TimeText: 0},
 	{Text4: 0},
+	{BtnBack: 0},
+	{ConfirmText: 0},
+	{BtnYes: 0},
+	{BtnNo: 0},
 	{Category: 0},
 	{TimeLeft: 0},
 	{Level: 0}
@@ -73,5 +78,9 @@ self.InstanceType = {
 	PuzzlePeople: class extends self.IArrayInstance {},
 	Text3: class extends self.ITextInstance {},
 	TimeText: class extends self.ITextInstance {},
-	Text4: class extends self.ITextInstance {}
+	Text4: class extends self.ITextInstance {},
+	BtnBack: class extends self.IButtonInstance {},
+	ConfirmText: class extends self.ITextInstance {},
+	BtnYes: class extends self.IButtonInstance {},
+	BtnNo: class extends self.IButtonInstance {}
 }
