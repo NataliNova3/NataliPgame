@@ -6,7 +6,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.TextBox,
 		C3.Plugins.Arr,
 		C3.Plugins.Mouse,
-		C3.Plugins.NinePatch,
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Acts.GoToLayout,
@@ -48,7 +47,6 @@ self.C3_JsPropNameTable = [
 	{Text3: 0},
 	{TimeText: 0},
 	{Text4: 0},
-	{backgroundColorForest: 0},
 	{Category: 0},
 	{TimeLeft: 0},
 	{Level: 0}
@@ -74,6 +72,5 @@ self.InstanceType = {
 	PuzzlePeople: class extends self.IArrayInstance {},
 	Text3: class extends self.ITextInstance {},
 	TimeText: class extends self.ITextInstance {},
-	Text4: class extends self.ITextInstance {},
-	backgroundColorForest: class extends self.I9PatchInstance {}
+	Text4: class extends self.ITextInstance {}
 }
